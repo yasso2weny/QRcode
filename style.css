@@ -1,0 +1,44 @@
+@font-face {
+    font-family: Outfit-Regular;
+    src: url(Outfit-Regular.ttf);
+}
+
+body {
+    background-color: hsl(212, 45%, 89%);
+    font-size: 15px;
+    font-family: Outfit-Regular;
+}
+
+.container {
+    width: 400px;
+    height: 580px;
+    
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    text-align: center; /* Center the contents of the container */
+    border-radius: 5%;
+    background-color: hsl(0, 0%, 100%);
+  }
+
+  .container img {
+    width: 350px;
+    height: 350px;
+    margin-top: 5%;
+    border-radius: 5%;
+  }
+
+  h1 {
+    margin: 20px; /* Add some spacing between the image and the heading */
+    color: hsl(218, 44%, 22%);
+    font-weight: 700;
+  }
+  
+  p {
+    margin: 25px; /* Add some spacing between the heading and paragraph */
+    color: hsl(220, 15%, 55%);
+    font-weight: 400;
+  }
+  
